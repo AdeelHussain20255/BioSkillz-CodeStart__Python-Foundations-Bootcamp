@@ -45,7 +45,7 @@ print(7/2) # output -> 3.5, divides 7 by 2
 
 print(7//2) # output -> 3, divides 7 by 2 and prints the value before the decimal only 
 
-print("7" + "2") # output -> 72, concatinates them both because both of them are between "" (strings) 
+print("7" + "2") # output -> 72, concatenates them both because both of them are between "" (strings) 
 
 print(type(7.0)) # output -> float, type() provides the type of the value
 
@@ -173,7 +173,7 @@ num1 = float(input("Enter first number: "))
 num2 = float(input("Enter second number: "))
 
 print("Addition:", num1 + num2)
-print("Sutraction:", num1 - num2)
+print("Subtraction:", num1 - num2)
 print("Multiplication:", num1 * num2)
 print("Division:", num1 / num2)
 print("Floor division:", num1 // num2)
@@ -199,7 +199,7 @@ print("Power:", num1 ** num2)
 
 # Your code here
 
-saving = 100
+saving = 1000
 print("Starting savings:", saving)
 
 saving += 500
