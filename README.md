@@ -29,6 +29,7 @@ codestart-tasks/
 │
 ├── week-01/
 │   ├── adeel_task_01.py
+|   ├── adeel_task_02.py
 │   └── README.md
 │
 ├── week-02/
@@ -53,28 +54,6 @@ codestart-tasks/
 | 02 | Loops, Lists & Tuples | ⚪ Upcoming |
 | 03 | Dictionaries, Sets & Functions | ⚪ Upcoming |
 | 04 | NumPy, pandas & Git/GitHub | ⚪ Upcoming |
-
-## 📝 Current Assignment
-
-<details open>
-<summary><b>🟢 Week 01 • Task 01: Python Foundations</b></summary>
-
-**Topics covered:**
-
-- Variables and data types
-- User input and typecasting
-- Arithmetic operators
-- Assignment operators
-- Comparison and logical operators
-- Basic Python expressions
-
-**Practical exercises:** Variables, calculations, temperature conversion, savings tracking, and scholarship eligibility checks.
-
-**File:** `adeel_task_01.py`
-
-**Status:** In Progress
-
-</details>
 
 ## 🛠️ Tools & Technologies
 
