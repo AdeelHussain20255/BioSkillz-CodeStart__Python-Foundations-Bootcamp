@@ -53,7 +53,7 @@ print("Zebra" > "Apple") # output -> True, it compares the ASCII values characte
 
 print(5 > 3 and 2 > 4) # output -> False, and operator means both side vaules had to be true at the same time
 
-print(not "") # output -> True, empty tring means false but the not operator flips the output and we get True
+print(not "") # output -> True, empty string means false. but the not operator flips the output and we get True
 
 # --------------------------------------------------------------
 # Exercise 2
@@ -87,11 +87,11 @@ if not stuMarks_str.isdigit():
   print("Error: Please input a valid value (0-100).")
 else:
   stuMarks = int(stuMarks_str) # type casts str -> int 
-  print(f"Student name: {stuName}")
+  print(f"Student name: {stuName}") # prints using fString
   print(f"Marks (0-100): {stuMarks}")
 
 
-if stuMarks > 100: # triggers when input marks are over 100 
+if stuMarks > 100: # only triggers when input marks are over 100 
   print("Marks must be (0-100)")
 elif stuMarks >= 90:
   print(f"{stuName} scored {stuMarks}/100 -> Grade A")
@@ -306,14 +306,13 @@ passWord = input("Enter password: ")
 
 if userName == "codestart":
 
-  if passWord == "python123":
+  if passWord == "python123": # nested if-else
     print("Login successful. Welcome to CodeStart!")
   else:
     print("Incorrect password. Please try again")
 
 else:
   print("Username not found.")
-
 
 # ==============================================================
 # Before you submit, check that:
